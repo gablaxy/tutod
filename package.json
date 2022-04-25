@@ -1,0 +1,25 @@
+{
+    "name": "tutod",
+    "displayName": "TutoD",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "rel",
+            "aliases": ["Tutorial D", "rel"],
+            "extensions": [".rel",".florian",".tutod",".nathanraciste"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "rel",
+            "scopeName": "source.rel",
+            "path": "./syntaxes/rel.tmLanguage.json"
+        }]
+    }
+}
