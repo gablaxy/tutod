@@ -31,7 +31,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.rel",
-				"match": "\\b(var|VAR|base|BASE|relation|RELATION|key|KEY|constraint|CONSTRAINT|insert|INSERT|public|PUBLIC)\\b"
+				"match": "\\b(var|VAR|base|BASE|relation|RELATION|key|KEY|constraint|CONSTRAINT|insert|INSERT|public|PUBLIC|rename|RENAME|as|AS)\\b"
 			},
 			{
 				"name": "entity.name.type",
